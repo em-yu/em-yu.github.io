@@ -1,0 +1,189 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    color: #333;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Raleway', sans-serif;
+}
+
+.section h2 {
+    padding-bottom: 5px;
+    border-bottom:#2196F3 5px solid;
+    color:  #2196F3;
+    font-weight: 400;
+}
+
+.single h1 {
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+.single h2 {
+    font-family: 'Martel';
+    margin-bottom: 0;
+}
+
+p {
+    text-align: justify;
+}
+
+a {
+    text-decoration: none;
+    color: #2196F3;
+}
+
+figure {
+    margin: 10px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+figure img {
+    max-width: 100%;
+}
+
+figcaption p {
+    margin: 5px;
+    font-style: italic;
+}
+
+video {
+    margin: 10px 0;
+}
+
+.site-wrap {
+    min-height: 100%;
+    margin-bottom: -60px;
+    padding-bottom: 60px;
+}
+
+
+footer {
+    background-color: #fafafa;
+    color: #7a7a7a;
+    border-top: thin solid #f3f3f3;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.page-content {
+    margin: auto;
+    width: 80%;
+    max-width: 1000px;
+}
+
+.single {
+    margin: 40px 0;
+}
+
+.single .authors, .single .journal {
+    text-align: center;
+}
+
+.single .tags {
+    justify-content: center;
+    margin: 10px 0;
+}
+
+.section {
+    margin-bottom: 50px;
+}
+
+.section.right h2 {
+    text-align: right;
+}
+
+.section:last-of-type {
+    margin-bottom: 100px;
+}
+
+.item-summary {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.section.right .item-summary {
+    flex-direction: row-reverse;
+}
+
+.item-image {
+    flex-basis: 30%;
+    flex-grow: 1;
+    min-width: 200px;
+    display: flex;
+}
+
+.item-image img {
+    max-width: 90%;
+    max-height: 250px;
+    margin: auto;
+}
+
+.item-details {
+    flex-basis: 65%;
+    flex-grow: 1;
+    min-width: 200px;
+}
+
+.item-details h3 {
+    font-family: 'Martel';
+    margin-bottom: 0;
+}
+
+.item-details p {
+    margin-top: 0;
+}
+
+.item-header {
+    margin-bottom: 10px;
+}
+
+.authors span:not(:last-child)::after {
+    content: ", "
+}
+
+.journal {
+    font-style: italic;
+}
+
+.tags {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tags a {
+    margin-bottom: 5px;
+    background-color: #dff0ff;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.tags a:not(:first-child) {
+    margin-left: 10px;
+}
+
+.single .teaser-image {
+    margin: 20px 0;
+}
+
+.single .teaser-image .teaser-caption {
+    font-style: italic;
+    text-align: center;
+}
+
+.single .teaser-image img {
+    max-width: 100%;
+}
