@@ -1,0 +1,12 @@
+
+{{ partial "head.html" . }}
+<div class="site-wrap">
+    
+    {{ if isset .Site.Params "description" }}
+        <meta name="description" content="{{ .Site.Params.description }}">
+    {{ end }}
+
+    {{ block "main" . }} {{ end }}
+
+</div>
+{{ partial "footer.html" . }}

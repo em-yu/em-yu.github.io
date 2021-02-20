@@ -1,0 +1,15 @@
+
+
+<header class="page-header" style="background-color:{{ .Site.Params.style.primaryColor }};">
+    {{ with .Site.Params.info }}
+
+    <a href="/">
+    <h1>
+        {{ .name }}
+    </h1>
+    </a>
+
+    {{ end }}
+
+    {{ partial "navbar.html" .}}
+</header>

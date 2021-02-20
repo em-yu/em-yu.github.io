@@ -1,0 +1,7 @@
+<div id="contact" class="section {{ .Class }}">
+    <h2>Contact</h2>
+    <div>
+        {{ $url := (print "mailto:" .context.Site.Params.info.email)}}
+        Email: {{ partial "styled_link.html" (dict "text" .context.Site.Params.info.email "url" $url)}}
+    </div>
+</div>

@@ -1,0 +1,52 @@
+
+.link {
+    display: inline-block;
+}
+
+a:hover .underbar {
+	animation-name: strokeline;
+	animation-duration: 0.5s;
+    width: 100%;
+    visibility: visible;
+}
+
+.link.active .underbar {
+    width: 100%;
+    visibility: visible;
+}
+
+.link .underbar{
+	display: flex;
+    flex-grow: 1;
+    height: 4px;
+    margin-bottom: -4px;
+	/* animation-name: unstrokeline; */
+	animation-duration: 0.2s;
+    width: 0;
+    visibility: hidden;
+    background-color: #2196F3;
+}
+
+.link a {
+	text-decoration: none;
+}
+
+@keyframes strokeline {
+	0% {
+        width: 0;
+        visibility: hidden;
+    }
+    100% {
+        width: 100%;
+        visibility: visible;
+    }
+}
+/* 
+@keyframes unstrokeline {
+	0% {
+        width: 100%;
+    }
+    100% {
+        width: 0;
+    }
+} */

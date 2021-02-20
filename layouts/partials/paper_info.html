@@ -1,0 +1,16 @@
+{{ if .Params.authors }}
+    <div class="authors">
+        {{ range $author := .Params.Authors }} 
+            {{ if isset $author "url" }}
+                <span><a href="{{ $author.url }}">{{ $author.name }}</a></span>
+            {{ else }}
+                <span>{{ $author.name }}</span>
+            {{ end }}
+        {{ end }}
+    </div>
+{{ end }}
+{{ if .Params.journal }}
+    <div class="journal">
+        {{ .Params.journal }}
+    </div>
+{{ end }}

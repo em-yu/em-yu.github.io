@@ -1,0 +1,16 @@
+    <footer class="footer">
+      <div>
+      {{ partial "social_links.html" . }}
+          <small>
+            I built this website with <a href="http://gohugo.io/" target="_blank">Hugo</a> </a>
+          </small>
+      </div>
+    </footer>
+    {{ $baseurl := .Site.BaseURL }}
+
+</body>
+<script src="{{ $baseurl }}/js/highlight.pack.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+<!-- <script src="{{ $baseurl }}/js/main.js"></script> -->
+{{ partial "mathjax.html" . }}
+</html>

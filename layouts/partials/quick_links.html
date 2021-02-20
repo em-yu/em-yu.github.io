@@ -1,0 +1,7 @@
+<div class="tags">
+    {{ range $link := . }}
+        <a href={{ $link.url }}>
+            {{ $link.label }}
+        </a>
+    {{ end }}
+</div>

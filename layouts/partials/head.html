@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>{{ .Title }}</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <meta name="keywords" content="">
+  <link rel="canonical" href="{{ .Permalink }}">
+
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:ital,wght@300,400,600|Raleway:300,400,700&display=swap" rel="stylesheet">
+  <!-- <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet"> -->
+  <!-- <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+  rel="stylesheet"> -->
+  <link href="https://fonts.googleapis.com/css2?family=Martel:wght@200;400;700&display=swap" rel="stylesheet">
+
+  {{ $baseurl := .Site.BaseURL }}
+  <base href="{{ $baseurl }}">
+  <link rel="stylesheet" type="text/css" href="{{ $baseurl }}/css/main.css">
+  <link rel="stylesheet" type="text/css" href="{{ $baseurl }}/css/header.css">
+  <link rel="stylesheet" type="text/css" href="{{ $baseurl }}/css/link.css">
+
+</head>
+<body class="">

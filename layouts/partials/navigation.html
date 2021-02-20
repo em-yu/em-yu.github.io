@@ -1,0 +1,11 @@
+<!-- <a href="{{ .Site.BaseURL }}/about/">{{ "about" }}</a> -->
+<a href="{{ .Site.BaseURL }}/tags/">{{ "Categories" }}</a>
+<!-- <a href="{{ .Site.BaseURL }}/contact/">{{ "contact" }}</a> -->
+
+{{ if isset .Site.Params "search_engine" }}
+<form class="navbar-search" action="{{ .Site.BaseURL }}/search/index.html"
+    onsubmit="return validateForm(this.elements['q'].value);">
+    <input type="text" class="search-query" placeholder="{{ i18n "search" }}" name="q" id="tipue_search_input">
+</form>
+{{ end }}
+

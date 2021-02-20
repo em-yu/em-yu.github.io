@@ -1,0 +1,45 @@
+baseURL = "https://em-yu.github.io"
+languageCode = "en-us"
+title = "Emilie Yu - Personal site"
+description = "I’m a first year PhD student in GraphDecoteam at INRIA. My research focuses on 3D sketching interfaces, for virtual and augmented reality."
+# sectionPagesMenu = "main"
+[params]
+    [params.info]
+        name = "Emilie Yu"
+        description = "PhD student at Graphdeco - INRIA // Computer Graphics & HCI"
+        twitter = "https://twitter.com/ermahler"
+        linkedin = "https://www.linkedin.com/in/emilie-yu-312003109/"
+        github = "https://github.com/em-yu"
+        email = "emilie.yu@inria.fr"
+    [params.style]
+        primaryColor = "#2196F3"
+
+
+[menu]
+    # [[menu.main]]
+    #     identifier = "about"
+    #     name = "About"
+    #     title = "About"
+    #     url = "/"
+    #     weight = -120
+
+    [[menu.main]]
+        identifier = "research"
+        name = "Research"
+        title = "Research"
+        url = "/#research"
+        weight = -110
+
+    [[menu.main]]
+        identifier = "projects"
+        name = "Projects"
+        title = "Projects"
+        url = "/#project"
+        weight = -100
+
+    [[menu.main]]
+        identifier = "contact"
+        name = "Contact"
+        title = "Contact"
+        url = "/#contact"
+        weight = -90

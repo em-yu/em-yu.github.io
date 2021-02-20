@@ -1,0 +1,12 @@
+<nav class="navbar">
+    {{ $currentPage := . }}
+    {{ range .Site.Menus.main }}
+        {{ $class := "" }}
+        {{/*
+        {{ if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .)}}
+            {{ $class = "active" }}
+        {{ end }}
+        */}}
+        {{ partial "styled_link.html" (dict "color" "white" "url" .URL "text" .Name "title" .Title "class" $class) }}
+    {{ end }}
+</nav>

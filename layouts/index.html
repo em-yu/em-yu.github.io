@@ -1,0 +1,17 @@
+
+{{ define "main" }}
+{{ partial "index_header.html" . }}
+
+<div class="page-content">
+    {{ .Content }}
+
+    {{ partial "home_section.html" (dict "context" . "SectionTitle" "Research" "SectionTag" "research") }}
+    
+    {{ partial "home_section.html" (dict "context" . "SectionTitle" "Projects" "SectionTag" "project" "Class" "right") }}
+
+    {{ partial "contact.html" (dict "context" .) }}
+</div>
+
+
+{{ end }}
+

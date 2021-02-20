@@ -1,0 +1,41 @@
+
+
+<header class="header" style="background-color:{{ .Site.Params.style.primaryColor }};">
+    {{ with .Site.Params.info }}
+    <div class="socials">
+        {{ if isset . "github" }}
+            <a href="{{ .github }}" target="_blank">
+                <img height="32" width="32" src="media/github.svg" alt="github" />
+            </a>
+        {{ end }}
+        {{ if isset . "linkedin" }}
+            <a href="{{ .linkedin }}" target="_blank">
+                <img height="32" width="32" src="media/linkedin.svg" alt="linkedin" />
+            </a>
+        {{ end }}
+        {{ if isset . "twitter" }}
+        <a href="{{ .twitter }}" target="_blank">
+            <img height="32" width="32" src="media/twitter.svg" alt="linkedin" />
+        </a>
+        {{ end }}
+    </div>
+    
+    <div class="pic">
+        <img src="media/picture.jpg" alt="{{ .name }}" />
+    </div>
+    <div class="info">
+            <h1>
+                {{ .name }}
+            </h1>
+            <div >
+                {{ .description }}
+            </div>
+    </div>
+
+    {{ end }}
+
+    {{/* 
+    {{ partial "navbar.html" .}}
+    */}}
+
+</header>

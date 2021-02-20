@@ -1,0 +1,25 @@
+
+{{ define "main" }}
+
+{{ partial "page_header.html" . }}
+
+<div class="page-content">
+    <div class="single">
+        <div>
+            <h1>{{ .Title }}</h1>
+            {{ partial "paper_info.html" . }}
+
+            {{ if .Params.bigTeaser }}
+            <div class="teaser-image">
+                <img src="media/{{ .Params.bigTeaser }}" alt={{ .Title }}/>
+                <div class="teaser-caption">{{ .Params.bigTeaserCaption}}</div>
+            </div>
+            {{ end }}
+
+            {{ partial "quick_links.html" .Params.links }}
+        </div>
+        {{ .Content }}
+    </div>
+</div>
+
+{{ end }}
