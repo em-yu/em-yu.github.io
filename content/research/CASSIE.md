@@ -42,13 +42,13 @@ links:
         url: "http://www-sop.inria.fr/reves/Basilic/2021/YASBS21/CASSIE_Supplemental_Material.pdf"
     -
         label: "3D sketches viewer"
-        url: "http://www-sop.inria.fr/members/Emilie.Yu/CASSIE-sketch-explorer/"
-    # -
-    #     label: "Data"
-    #     url: "https://gitlab.inria.fr/D3/cassie-data"
-    # -
-    #     label: "Code & exe"
-    #     url: "https://gitlab.inria.fr/D3/cassie"
+        url: "https://ns.inria.fr/d3/CASSIE/sketch-explorer/"
+    -
+        label: "Data"
+        url: "https://gitlab.inria.fr/D3/cassie-data"
+    -
+        label: "Code & exe"
+        url: "https://gitlab.inria.fr/D3/cassie"
 ---
 
 ## Abstract
@@ -97,9 +97,9 @@ NB: we don’t guarantee 3D-printability properties for the resulting mesh, but 
 
 Automatic neatening and surfacing features offer a trade-off: loss of user control over their strokes VS a neater, fleshed out result. We investigate in a user study whether this holds up against unconstrained 3D sketching, and find out that users rate our system on-par with freehand sketching on a scale evaluating creativity support (CSI).
 
-We think that understanding 3D sketches and using 3D sketching as a modelling interface are very exciting avenues of research and hope to support future effort by releasing the code for our Unity prototype application, as well as all data from the sketches done during the user study, and those showcased in the paper. *(Coming soon)*
+We think that understanding 3D sketches and using 3D sketching as a modelling interface are very exciting avenues of research and hope to support future effort by releasing the code for our Unity prototype application, as well as all data from the sketches done during the user study, and those showcased in the paper.
 
-You can explore the sketches in 3D [here](http://www-sop.inria.fr/members/Emilie.Yu/CASSIE-sketch-explorer/).
+You can explore the sketches in 3D [here](https://ns.inria.fr/d3/CASSIE/sketch-explorer/).
 
 
 ## Supplemental videos
@@ -107,10 +107,6 @@ You can explore the sketches in 3D [here](http://www-sop.inria.fr/members/Emilie
 * [Longer video with narration](https://youtu.be/X26Q8oQ7j6M)
 * [3 non-edited sketching sessions](https://youtu.be/A3ORhg8OeBE)
 * [Gravity Sketch workflow comparison](https://youtu.be/gSlQRHze0dI)
-
-## Release
-
-Code and data coming soon! (before April 2021)
 
 ## Acknowledgments
 
