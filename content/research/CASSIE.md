@@ -47,8 +47,11 @@ links:
         label: "Data"
         url: "https://gitlab.inria.fr/D3/cassie-data"
     -
-        label: "Code & exe"
+        label: "Code"
         url: "https://gitlab.inria.fr/D3/cassie"
+    -
+        label: "Executable"
+        url: "https://ns.inria.fr/d3/CASSIE/CASSIE-build-2021-05-02.zip"
 ---
 
 ## Abstract
