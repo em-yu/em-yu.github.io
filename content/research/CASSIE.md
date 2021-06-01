@@ -52,6 +52,9 @@ links:
     -
         label: "Executable"
         url: "https://ns.inria.fr/d3/CASSIE/CASSIE-build-2021-05-02.zip"
+    -
+        label: "Presentation"
+        url: "https://youtu.be/DayjA4ilBv0"
 ---
 
 ## Abstract
@@ -72,6 +75,7 @@ models for downstream applications.
 ## Video preview
 
 {{< youtube ppJrLxi_zfs >}}
+
 
 ## Short summary
 
@@ -104,6 +108,10 @@ We think that understanding 3D sketches and using 3D sketching as a modelling in
 
 You can explore the sketches in 3D [here](https://ns.inria.fr/d3/CASSIE/sketch-explorer/).
 
+
+## CHI presentation
+
+{{< youtube DayjA4ilBv0 >}}
 
 ## Supplemental videos
 
