@@ -1,12 +1,12 @@
 baseURL = "https://em-yu.github.io"
 languageCode = "en-us"
 title = "Emilie Yu - Personal site"
-description = "I’m a first year PhD student in GraphDecoteam at INRIA. My research focuses on 3D sketching interfaces, for virtual and augmented reality."
+description = "I’m a first year PhD student in GraphDecoteam at Inria. My research focuses on 3D sketching interfaces, for virtual and augmented reality."
 # sectionPagesMenu = "main"
 [params]
     [params.info]
         name = "Emilie Yu"
-        description = "PhD student at Graphdeco - INRIA // Computer Graphics & HCI"
+        description = "PhD student at Graphdeco - Inria"
         twitter = "https://twitter.com/emxtyu"
         linkedin = "https://www.linkedin.com/in/emilie-yu-312003109/"
         github = "https://github.com/em-yu"
