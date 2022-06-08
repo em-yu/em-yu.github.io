@@ -1,23 +1,23 @@
 ---
 title: "Piecewise-Smooth Surface Fitting onto Unstructured 3D Sketches"
 date: 2022-06-01T14:26:10+01:00
-journal: "ACM Transactions on Graphics (SIGGRAPH Conference Proceedings) - 2022"
+journal: "ACM Transactions on Graphics (SIGGRAPH) - 2022"
 authors:
     - 
         name: "Emilie Yu"
-        url: "em-yu.github.io"
+        url: "https://em-yu.github.io"
     - 
         name: "Rahul Arora"
-        url: "http://www.dgp.toronto.edu/~arorar/en/"
+        url: "https://rahularora.xyz/"
     - 
         name: "J. Andreas Bærentzen"
-        url: "http://people.compute.dtu.dk/janba/"
+        url: "https://people.compute.dtu.dk/janba/"
     -
         name: "Karan Singh"
-        url: "http://www.dgp.toronto.edu/~karan/"
+        url: "https://www.dgp.toronto.edu/~karan/"
     -
         name: "Adrien Bousseau"
-        url: "http://www-sop.inria.fr/members/Adrien.Bousseau/"
+        url: "https://www-sop.inria.fr/members/Adrien.Bousseau/"
 teaser: "surfacing_3D_sketches.png"
 bigTeaser: "figures/surfacing_3D_sketches/Teaser.png"
 bigTeaserCaption: "3D sketches created in Virtual Reality (VR) or with sketch-based modeling systems often depict piecewise-smooth surfaces (a), but lack proper inter-stroke connectivity to detect the individual surface patches, as illustrated in the insets where pen strokes do not intersect precisely, and where detail strokes lie on the imaginary surface without being connected to other strokes. State-of-the-art surfacing algorithms only produce smooth surfaces from such sparse and unstructured 3D data (b). Our algorithm segments such an initial smooth surface into regions aligned with the pen strokes to produce a piecewise-smooth surface that better captures the intended shape. ©James Robbins, used with permission."
@@ -32,9 +32,9 @@ links:
     # -
     #     label: "Supplemental"
     #     url: "#"
-    # -
-    #     label: "Results webpage"
-    #     url: "#"
+    -
+        label: "Results webpage"
+        url: "https://ns.inria.fr/d3/Surface3DSketch/results-page"
     # -
     #     label: "Code (coming soon)"
     #     url: "#"
@@ -75,7 +75,7 @@ Here are some results:
 
 Note that our method can fit piecewise-smooth surfaces even onto freehand imprecise sketches (*author2_guitar*) or sketches that present a strong amount of oversketching (*swh_vr_controller*).
 
-Please have a look at our [result webpage](#) that presents all 50+ results, in the form of interactive 3D viewers.
+Please have a look at our [result webpage](https://ns.inria.fr/d3/Surface3DSketch/results-page) that presents all 50+ results, in the form of interactive 3D viewers.
 
 ## Talk
 
