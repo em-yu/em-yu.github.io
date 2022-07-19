@@ -1,7 +1,7 @@
 ---
 title: "CASSIE: Curve And Surface Sketching in Immersive Environments"
 date: 2021-02-01T14:26:10+01:00
-journal: "2021, ACM Conference on Human Factors in Computing Systems (CHI)"
+journal: "ACM Conference on Human Factors in Computing Systems (CHI) - 2021"
 authors:
     - 
         name: "Emilie Yu"

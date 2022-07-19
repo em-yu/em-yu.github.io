@@ -44,12 +44,6 @@ links:
 
 We propose a method to transform unstructured 3D sketches into piecewise smooth surfaces that preserve sketched geometric features. Immersive 3D drawing and sketch-based 3D modeling applications increasingly produce imperfect and unstructured collections of 3D strokes as design output. These 3D sketches are readily perceived as piecewise smooth surfaces by viewers, but are poorly handled by existing 3D surface techniques tailored to well- connected curve networks or sparse point sets. Our algorithm is aligned with human tendency to imagine the strokes as a small set of simple smooth surfaces joined along stroke boundaries. Starting with an initial proxy surface, we iteratively segment the surface into smooth patches joined sharply along some strokes, and optimize these patches to fit surrounding strokes. Our evaluation is fourfold: we demonstrate the impact of various algorithmic parameters, we evaluate our method on synthetic sketches with known ground truth surfaces, we compare to prior art, and we show compelling results on more than 50 designs from a diverse set of 3D sketch sources.
 
-## Video preview
- 
-Coming soon
-
-<!-- {{< youtube ppJrLxi_zfs >}} -->
-
 
 ## Short summary
 
@@ -79,15 +73,12 @@ Please have a look at our [result webpage](#) that presents all 50+ results, in 
 
 ## Talk
 
-Coming soon
-
-<!-- {{< youtube DayjA4ilBv0 >}} -->
+{{< youtube YqpYrr4n6lU >}}
 
 
 ## Fast Forward
 
-Coming soon
-<!-- {{< youtube DayjA4ilBv0 >}} -->
+{{< youtube 1eS6KB3MSds >}}
 
 
 ## Acknowledgments
