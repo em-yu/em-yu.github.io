@@ -5,22 +5,22 @@ journal: "ACM Conference on Human Factors in Computing Systems (CHI) - 2021"
 authors:
     - 
         name: "Emilie Yu"
-        url: "em-yu.github.io"
+        url: "https://em-yu.github.io"
     - 
         name: "Rahul Arora"
-        url: "http://www.dgp.toronto.edu/~arorar/en/"
+        url: "https://rahularora.xyz/"
     - 
         name: "Tibor Stanko"
         url: "https://tiborstanko.sk/"
     - 
         name: "J. Andreas Bærentzen"
-        url: "http://people.compute.dtu.dk/janba/"
+        url: "https://people.compute.dtu.dk/janba/"
     -
         name: "Karan Singh"
-        url: "http://www.dgp.toronto.edu/~karan/"
+        url: "https://www.dgp.toronto.edu/~karan/"
     -
         name: "Adrien Bousseau"
-        url: "http://www-sop.inria.fr/members/Adrien.Bousseau/"
+        url: "https://www-sop.inria.fr/members/Adrien.Bousseau/"
 teaser: "CASSIE_teaser.jpg"
 bigTeaser: "figures/CASSIE/CASSIE_big_teaser.png"
 bigTeaserCaption: "Freehand 3D sketching in AR/VR allows rapid conceptualization of design ideas (a). However, 3D inputs are prone to
