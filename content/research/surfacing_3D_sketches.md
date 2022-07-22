@@ -80,11 +80,12 @@ Please have a look at our [result webpage](https://ns.inria.fr/d3/Surface3DSketc
 
 {{< youtube 1eS6KB3MSds >}}
 
+## Supplemental video
+
+{{< youtube FAbqQsmQVhc >}}
+
+
 
 ## Acknowledgments
 
-<!-- We thank our study participants for their time and effort, and
-the anonymous reviewers for their helpful comments. This work
-was supported by ERC Starting Grant D3 (ERC-2016-STG 714221),
-NSERC Discovery Grant 480538, and by software and research
-donations from Adobe. -->
+We thank the artists who kindly shared some of their artworks with us, James Robbins, Jacopo Colò, Arturo Tolentino. We thank the anonymous reviewers for their helpful comments. This work was supported by ERC Starting Grant D3 (ERC-2016-STG 714221), NSERC, Advokat Bent Thorbergs Fond (66.531) and by software and research donations from Adobe.
