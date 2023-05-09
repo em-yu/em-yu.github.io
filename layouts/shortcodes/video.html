@@ -1,0 +1,8 @@
+<div style="display: flex; justify-content: center;">
+    <video controls muted preload="auto" width="{{ or (.Get "width") "500px" }}">
+        <source src="{{ .Get "src" }}" type="video/mp4">
+        </source>
+        <p>To view this video please enable JavaScript, and consider upgrading to a web browser that <a
+                href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a></p>
+    </video>
+</div>

@@ -47,6 +47,10 @@ links:
 
 We present an interactive system to ease the creation of so-called *video doodles* &ndash; videos on which artists insert hand-drawn animations for entertainment or educational purposes. Video doodles are challenging to create because to be convincing, the inserted drawings must appear as if they were part of the captured scene. In particular, the drawings should undergo tracking, perspective deformations and occlusions as they move with respect to the camera and to other objects in the scene &ndash; visual effects that are difficult to reproduce with existing 2D video editing software. Our system supports these effects by relying on planar canvases that users position in a 3D scene reconstructed from the video. Furthermore, we present a custom tracking algorithm that allows users to anchor canvases to static or dynamic objects in the scene, such that the canvases move and rotate to follow the position and direction of these objects. When testing our system, novices could create a variety of short animated clips in a dozen of minutes, while professionals praised its speed and ease of use compared to existing tools.
 
+## Results
+
+{{< video src="/media/figures/VideoDoodles/RESULTS_ours.mp4">}}
+
 ## Short summary
 
 Video doodles are an emerging mixed media art that combines **video content** with **hand-drawn animations** to produce unique and memorable video clips. Here is an example by LeopARTnik:
@@ -59,9 +63,21 @@ We propose to assist the creation of video doodles with a user interface that le
 
 {{< figure src="/media/figures/VideoDoodles/scene-aware-canvas.png" caption="In our system, the final frame is obtained by rendering our scene-aware canvas in a partial 3D reconstruction of the captured scene. The user draws animated doodles onto this canvas." width="">}}
 
+Users can finely control the canvases with in our **2D image-space UI** by **keyframing** position and orientation. Our system takes care to interpolate keyframes by tracking the motion of moving objects in the video.
+
+{{< figure src="/media/figures/VideoDoodles/image-space-ui.png" caption="" width="350px">}}
+
+{{< figure src="/media/figures/VideoDoodles/keyframing.png" caption="" width="700">}}
+
+In a nutshell, we introduce a novel UI and tracking algorithm to unlock new edition capabilities for videos augmented with depth and motion data (obtained via existing computer vision methods). From user intent expressed through an arbitrary number of position and orientation keyframes, our algorithm can render a *scene-aware canvas* at any frame of the video with correct occlusions, perspective transformation and make the canvas follow a moving object.
+
+{{< figure src="/media/figures/VideoDoodles/Canvas_trajectory.png" caption="With an orientation+position keyframe at the first frame (red) and a position keyframe at the last frame (green), our system renders the corresponding canvas coherently throughout the video." width="">}}
+
 Here is an overview of the workflow from the user's perspective (see the video for more details):
 
 {{< figure src="/media/figures/VideoDoodles/Workflow.png" caption="" width="">}}
+
+
 
 ## Video
 
