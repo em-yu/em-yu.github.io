@@ -14,7 +14,7 @@
     justify-content: flex-end;
 }
 
-.header .socials img {
+.header .socials img, .header .socials div {
     margin: 5px 10px;
     z-index: -1;
 }
