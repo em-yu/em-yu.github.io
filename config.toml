@@ -10,6 +10,7 @@ description = "I’m a second year PhD student in GraphDeco team at Inria. My re
         twitter = "https://twitter.com/emxtyu"
         linkedin = "https://www.linkedin.com/in/emilie-yu-312003109/"
         github = "https://github.com/em-yu"
+        cv = "media/CV_Emilie_Yu.pdf"
         email = "emilie.yu@inria.fr"
     [params.style]
         primaryColor = "#2196F3"

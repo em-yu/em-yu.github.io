@@ -3,6 +3,13 @@
 <header class="header" style="background-color:{{ .Site.Params.style.primaryColor }};">
     {{ with .Site.Params.info }}
     <div class="socials">
+        {{ if isset . "cv" }}
+        <a href="{{ .cv }}" target="_blank">
+            <div style="color: white; display: flex; width: 32px; height: 32px;align-items: center; font-weight: bold; font-size: 1.5em;">
+                CV
+            </div>
+        </a>
+        {{ end }}
         {{ if isset . "github" }}
             <a href="{{ .github }}" target="_blank">
                 <img height="32" width="32" src="media/github.svg" alt="github" />
