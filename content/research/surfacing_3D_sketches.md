@@ -36,6 +36,9 @@ links:
         label: "Results webpage"
         url: "https://ns.inria.fr/d3/Surface3DSketch/results-page"
     -
+        label: "Code"
+        url: "https://gitlab.inria.fr/D3/surface-fitting-3d-sketches"
+    -
         label: "Dataset"
         url: "https://gitlab.inria.fr/D3/3d-sketches-curated-dataset"
     -
