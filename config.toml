@@ -1,17 +1,17 @@
 baseURL = "https://em-yu.github.io"
 languageCode = "en-us"
-title = "Emilie Yu - PhD student"
-description = "I’m a second year PhD student in GraphDeco team at Inria. My research focuses on 3D sketching interfaces, for virtual and augmented reality."
+title = "Emilie Yu"
+description = ""
 # sectionPagesMenu = "main"
 [params]
     [params.info]
         name = "Emilie Yu"
-        description = "PhD student at Graphdeco - Inria"
+        description = "Post doctoral researcher at UCSB"
         twitter = "https://twitter.com/emxtyu"
         linkedin = "https://www.linkedin.com/in/emilie-yu-312003109/"
         github = "https://github.com/em-yu"
         cv = "media/CV_Emilie_Yu.pdf"
-        email = "emilie.yu@inria.fr"
+        email = "emxtyu@gmail.com"
     [params.style]
         primaryColor = "#2196F3"
 

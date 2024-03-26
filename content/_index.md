@@ -1,11 +1,7 @@
 ---
-title: "Emilie Yu - PhD Student"
+title: "Emilie Yu - Post doctoral researcher"
 ---
 
+I am a post doctoral researcher in the {{<link url="https://ecl.mat.ucsb.edu/">}}Expressive Computation Lab{{</link>}}&nbsp;supervised by Professor Jennifer Jacobs.
 
-I’m a 3rd (and last) year PhD student in {{<link url="https://team.inria.fr/graphdeco/">}}GraphDeco team{{</link>}}&nbsp;at Inria in Nice, supervised by {{<link url="http://www-sop.inria.fr/members/Adrien.Bousseau/">}}Adrien Bousseau{{</link>}}. I graduated from {{<link url="https://www.dtu.dk/">}}DTU{{</link>}} (Technical University of Denmark) and {{<link url="https://www.centralesupelec.fr/">}}CentraleSupélec{{</link>}}&nbsp;in August 2020.
-My research interests revolve around developing computational methods that are intertwined with user interactions, to make ill-posed problems tractable and provide control over the result. I am most interested in creativity tools, such as for 3D design, 3D painting or sketching.
-In the summer of 2022, I interned at Adobe Research under the mentorship of {{<link url="https://rubaiathabib.me/">}}Rubaiat Habib Kazi{{</link>}}&nbsp;and {{<link url="https://wilmotli.com/">}}Wilmot Li{{</link>}}.
-Last summer, I was a visiting student at the University of Toronto supervised by {{<link url="http://www.cs.toronto.edu/~fchevali/fannydotnet/">}}Fanny Chevalier{{</link>}}&nbsp;and {{<link url="https://www.dgp.toronto.edu/~karan/">}}Karan Singh{{</link>}}.
-
-Aside of work, I enjoy photography and video editing, cycling and bouldering!
+I just completed a PhD at Inria Université Côte d'Azur in Dec 2023, where I worked in the {{<link url="https://team.inria.fr/graphdeco/">}}GraphDeco team{{</link>}}&nbsp;supervised by {{<link url="http://www-sop.inria.fr/members/Adrien.Bousseau/">}}Adrien Bousseau{{</link>}}.
