@@ -11,7 +11,7 @@ description = ""
         linkedin = "https://www.linkedin.com/in/emilie-yu-312003109/"
         github = "https://github.com/em-yu"
         cv = "media/CV_Emilie_Yu.pdf"
-        email = "emxtyu@gmail.com"
+        email = "emiliextyu@gmail.com"
     [params.style]
         primaryColor = "#2196F3"
 
