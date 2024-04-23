@@ -32,9 +32,9 @@ links:
     -
         label: "Paper"
         url: "http://www-sop.inria.fr/reves/Basilic/2023/YBNWKB23/VideoDoodles.pdf"
-    # -
-    #     label: "Supplemental"
-    #     url: "#"
+    -
+        label: "Code"
+        url: "https://github.com/adobe-research/VideoDoodles"
     -
         label: "Supplemental webpage"
         url: "https://ns.inria.fr/d3/VideoDoodles/video_doodles_supplemental_webpage"
