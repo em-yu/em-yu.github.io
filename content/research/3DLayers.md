@@ -33,9 +33,9 @@ links:
     # -
     #     label: "Supplemental webpage"
     #     url: "https://ns.inria.fr/d3/VideoDoodles/video_doodles_supplemental_webpage"
-    # -
-    #     label: "Video"
-    #     url: "https://youtu.be/rN3o8kwX9-8"
+    -
+        label: "Video"
+        url: "https://youtu.be/ZTp69Bgt07U"
 ---
 
 ## Abstract
@@ -49,7 +49,7 @@ The ability to represent artworks as stacks of layers is fundamental to modern g
 
 ## Video
 
-{{< youtube rN3o8kwX9-8 >}}
+{{< youtube ZTp69Bgt07U >}}
 
 <!-- 
 ## Talk
