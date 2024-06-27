@@ -20,16 +20,16 @@ teaser: "pig_small_teaser.jpg"
 bigTeaser: "figures/3DLs/teaser_website.png"
 bigTeaserCaption: "Our VR painting system allows artists to achieve rich, editable coloring effects using 3D-Layers. Starting with substrate layers (a) that define the geometry and basic colors of the scene, users can stack multiple appearance layers (b) that are composited onto the substrate to produce the final 3D scene (c). Importantly, strokes painted in appearance layers only recolor the substrate strokes they intersect (b, intersections highlighted with a yellow boundary), which avoids the need to position the appearance strokes precisely on the surface of the substrate. In this example, we used appearance strokes to add texture details (white bands on the lighthouse, dark lines on the house and rocks), to paint shadows (lighthouse, rocks), to depict translucency (semi-transparent water painted on the rocks and seabed, subject to a vertical gradient in opacity over the rocks)."
 summary: "
-    coming soon...
+    VR artists create beautiful 3D paintings with colored 3D brushstrokes. We investigate how the paradigm of ``painting layers'' could translate to the 3D painting space to achieve non-destructive color editing effects.
 "
 publishPage: true
 links:
     -
         label: "Paper"
         url: "https://www-sop.inria.fr/reves/Basilic/2024/YCSB24/3DLayers-%20Bringing%20Layer-Based%20Color%20Editing%20to%20VR%20Painting.pdf"
-    # -
-    #     label: "Code"
-    #     url: "https://github.com/adobe-research/VideoDoodles"
+    -
+        label: "Code"
+        url: "https://github.com/graphdeco-inria/3dlayers"
     # -
     #     label: "Supplemental webpage"
     #     url: "https://ns.inria.fr/d3/VideoDoodles/video_doodles_supplemental_webpage"
@@ -62,4 +62,4 @@ The ability to represent artworks as stacks of layers is fundamental to modern g
 
 ## Acknowledgments
 
-We thank our study participants for their time and invaluable in- sights into their craft. We thank Berend Baas and Gilda Manfredi for help with testing the interface. We thank the anonymous reviewers for their helpful comments. This work was supported by ERC Start- ing Grant D3 (ERC-2016-STG 714221), Mitacs Globalink Research Award, NSERC (RGPIN-2018-05072) and by software donations from Adobe.
+We thank our study participants for their time and invaluable insights into their craft. We thank Berend Baas and Gilda Manfredi for help with testing the interface. We thank the anonymous reviewers for their helpful comments. This work was supported by ERC Starting Grant D3 (ERC-2016-STG 714221), Mitacs Globalink Research Award, NSERC (RGPIN-2018-05072) and by software donations from Adobe.
