@@ -7,6 +7,9 @@ links:
     -
         label: "Thesis"
         url: "https://www-sop.inria.fr/reves/Basilic/2023/Yu23/Thesis_Emilie_Yu.pdf"
+    -
+        label: "Short video (FR)"
+        url: "https://youtu.be/mju_buPQYJQ"
 ---
 
 <!-- Detailed text about this project -->
