@@ -4,19 +4,18 @@ html, body {
 
 body {
     margin: 0;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
     color: #333;
 }
 
 h1, h2, h3, h4 {
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto Mono', sans-serif;
 }
 
-.section h2 {
-    padding-bottom: 5px;
-    border-bottom:#2196F3 5px solid;
-    color:  #2196F3;
-    font-weight: 400;
+.section-title {
+    background-color:  #2196F3;
+    color: white;
+    padding: 5px 10px;
 }
 
 .single h1 {
@@ -25,13 +24,13 @@ h1, h2, h3, h4 {
 }
 
 .single h2 {
-    font-family: 'Martel';
+    font-family: 'Roboto Mono';
     margin-bottom: 0;
 }
 
-p {
+/* p {
     text-align: justify;
-}
+} */
 
 a {
     text-decoration: none;
@@ -78,8 +77,6 @@ footer {
 
 .page-content {
     margin: auto;
-    width: 80%;
-    max-width: 1000px;
 }
 
 .single {
@@ -99,12 +96,18 @@ footer {
     margin-bottom: 50px;
 }
 
-.section.right h2 {
+/* .section.right h2 {
     text-align: right;
-}
+} */
 
 .section:last-of-type {
     margin-bottom: 100px;
+}
+
+.centered-content {
+    max-width: 1000px;
+    margin: auto;
+    padding: 0 20px;
 }
 
 .item-summary {
@@ -140,7 +143,7 @@ footer {
 }
 
 .item-details h3 {
-    font-family: 'Martel';
+    font-family: 'Roboto Mono';
     margin-bottom: 0;
 }
 
@@ -187,4 +190,21 @@ footer {
 
 .single .teaser-image img {
     max-width: 100%;
+}
+
+
+.news-item {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    font-size: 0.9em;
+}
+
+.news-date {
+    flex-basis: 20%;
+    font-style: italic;
+}
+
+.news-title {
+    flex-basis: 80%;;
 }
