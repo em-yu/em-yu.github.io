@@ -2,8 +2,10 @@
 {{ define "main" }}
 {{ partial "index_header.html" . }}
 
+{{ partial "news.html" . }}
+
 <div class="page-content">
-    {{ .Content }}
+    <!-- {{ .Content }} -->
 
     {{ partial "home_section.html" (dict "context" . "SectionTitle" "Research" "SectionTag" "research") }}
     

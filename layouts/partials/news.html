@@ -1,0 +1,22 @@
+
+<div class="centered-content">
+    <h2>News</h2>
+
+    <!-- <div> -->
+        {{ range first 6 (where .Site.RegularPages "Section" "news")}}
+        <div class="news-item">
+            <div class="news-date">
+                {{.Date.Format "Jan 2006"}} 
+            </div>
+            <div class="news-title">
+                {{.Title}}
+                {{if .Params.Link}}
+                    <a href={{.Params.Link}}>>></a>
+                 {{ end }}
+
+            </div>
+        </div>
+        {{ end }}
+    <!-- </div> -->
+
+</div>

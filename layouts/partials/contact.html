@@ -1,6 +1,10 @@
 <div id="contact" class="section {{ .Class }}">
-    <h2>Contact</h2>
-    <div>
+    <h2 class="section-title">
+        <div class="centered-content">
+            // Contact
+        </div>
+    </h2>
+    <div class="centered-content">
         {{ $url := (print "mailto:" .context.Site.Params.info.email)}}
         Email: {{ partial "styled_link.html" (dict "text" .context.Site.Params.info.email "url" $url)}}
     </div>

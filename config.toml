@@ -6,8 +6,8 @@ description = ""
 [params]
     [params.info]
         name = "Emilie Yu"
-        description = "Post doctoral researcher at UCSB"
-        twitter = "https://twitter.com/emxtyu"
+        description = "post doctoral researcher at UCSB"
+        # twitter = "https://twitter.com/emxtyu"
         linkedin = "https://www.linkedin.com/in/emilie-yu-312003109/"
         github = "https://github.com/em-yu"
         cv = "media/CV_Emilie_Yu.pdf"

@@ -1,11 +1,11 @@
 
 
-<header class="header" style="background-color:{{ .Site.Params.style.primaryColor }};">
+<header class="header">
     {{ with .Site.Params.info }}
     <div class="socials">
         {{ if isset . "cv" }}
         <a href="{{ .cv }}" target="_blank">
-            <div style="color: white; display: flex; width: 32px; height: 32px;align-items: center; font-weight: bold; font-size: 1.5em;">
+            <div style="display: flex; width: 32px; height: 32px;align-items: center; font-weight: bold; font-size: 1.5em;">
                 CV
             </div>
         </a>
@@ -26,19 +26,24 @@
         </a>
         {{ end }}
     </div>
-    
-    <div class="pic">
-        <img src="media/picture.jpg" alt="{{ .name }}" />
-    </div>
-    <div class="info">
-            <h1>
-                {{ .name }}
-            </h1>
-            <div >
-                {{ .description }}
+    <div class="row-about">
+        <div class="col-about info">
+            <div class="pic">
+                <img src="media/picture.jpg" alt="{{ .name }}" />
             </div>
+            <!-- <div class="info"> -->
+                    <h1>
+                        {{ .name }}
+                    </h1>
+                    <div >
+                        {{ .description }}
+                    </div>
+            <!-- </div> -->
+        </div>
+        <div class="col-about text">
+            {{ $.Content }}
+        </div>
     </div>
-
     {{ end }}
 
     {{/* 

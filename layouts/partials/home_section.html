@@ -1,5 +1,10 @@
 <div id={{ .SectionTag }} class="section {{ .Class }}">
-    <h2>{{ .SectionTitle }}</h2>
+    <h2 class="section-title">
+        <div class="centered-content">
+            // {{ .SectionTitle }}
+        </div>
+    </h2>
+    <div class="centered-content">
     {{ range (where .context.Site.RegularPages "Section" .SectionTag) }}
         <div class="item-summary">
             <div class="item-image">
@@ -15,11 +20,12 @@
                 <p>{{ .Params.Summary | markdownify }}</p>
                 {{ if .Params.publishPage }}
                 <p style="margin-top: -10px">
-                    {{ partial "styled_link.html" (dict "url" .Permalink "text" "Read more >>" "title" .Title) }}
+                    {{ partial "styled_link.html" (dict "url" .Permalink "text" "Read more >>") }}
                 </p>
                 {{ end }}
                 {{ partial "quick_links.html" .Params.links }}
             </div>
         </div>
     {{ end }}
+    </div>
 </div>
