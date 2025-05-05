@@ -34,11 +34,13 @@
     display: flex;
     flex-wrap: wrap;
     padding: 0 20px;
+    gap: 5px;
 }
 
 .header .info {
     flex-basis: 30%;
     flex-grow: 1;
+    max-width: 300px;
 }
 
 .header .text {
