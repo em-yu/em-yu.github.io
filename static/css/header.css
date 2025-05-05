@@ -42,6 +42,7 @@
 
 .header .text {
     flex-basis: 70%;
+    flex-grow: 1;
     max-width: 800px;
 }
 
