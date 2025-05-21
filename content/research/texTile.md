@@ -20,12 +20,12 @@ summary: "
     "
 publishPage: false
 links:
-    # -
-    #     label: "Paper"
-    #     url: "https://www-sop.inria.fr/reves/Basilic/2024/YCSB24/3DLayers-%20Bringing%20Layer-Based%20Color%20Editing%20to%20VR%20Painting.pdf"
-    # -
-    #     label: "Code"
-    #     url: "https://github.com/graphdeco-inria/3dlayers"
+    -
+        label: "Paper"
+        url: "https://v5.airtableusercontent.com/v3/u/41/41/1747857600000/GbXh812fyJEfkvlmuXwunQ/6V2HsWtohuf33ENxCDXzTV4dZfY86y3tcWtu20FmXewUDxNrRFrlu1V3jeFdFtrJxBnWP5i_eyP2VzvwUG-e_Xyds05ikfoA3JNwTmUWnwMm6qiuJyS_QBfFF7AAEv5G7IEPSda2M7ZokEklrqCaskR4f25z3dKUx8pSm4niYNT5C5JNFZ9Gu7ngVtvuNjm7xhovUn8ldwnEHj8xdKEbIw/rG3BUVIxOkLKispMYrMyjziOZhI5CccciqGgO3zT2sU"
+    -
+        label: "Video"
+        url: "https://vimeo.com/1084792559"
     # -
     #     label: "Video"
     #     url: "https://youtu.be/ZTp69Bgt07U"
