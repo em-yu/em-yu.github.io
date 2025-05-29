@@ -22,7 +22,7 @@ publishPage: false
 links:
     -
         label: "Paper"
-        url: "https://v5.airtableusercontent.com/v3/u/41/41/1747857600000/GbXh812fyJEfkvlmuXwunQ/6V2HsWtohuf33ENxCDXzTV4dZfY86y3tcWtu20FmXewUDxNrRFrlu1V3jeFdFtrJxBnWP5i_eyP2VzvwUG-e_Xyds05ikfoA3JNwTmUWnwMm6qiuJyS_QBfFF7AAEv5G7IEPSda2M7ZokEklrqCaskR4f25z3dKUx8pSm4niYNT5C5JNFZ9Gu7ngVtvuNjm7xhovUn8ldwnEHj8xdKEbIw/rG3BUVIxOkLKispMYrMyjziOZhI5CccciqGgO3zT2sU"
+        url: "https://pixelmaid.github.io/publication/textile"
     -
         label: "Video"
         url: "https://vimeo.com/1084792559"
