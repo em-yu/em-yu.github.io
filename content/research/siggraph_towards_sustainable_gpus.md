@@ -29,10 +29,10 @@ links:
     -
         label: "Webpage"
         url: "https://eliemichel.github.io/sustainable-gpu-usage/"
-    # -
-    #     label: "Abstract"
-    #     url: "/media/papers/towards_a_sustainable_use_of_gpus_abstract.pdf"
-    # -
-    #     label: "Poster"
-    #     url: "/media/papers/cg-env-impact-poster.pdf"
+    -
+        label: "Abstract"
+        url: "https://eliemichel.github.io/sustainable-gpu-usage/documents/2025%20-%20Yu%20et%20al%20-%20Towards%20a%20sustainable%20use%20of%20GPUs%20in%20Graphics%20Research%20-%20abstract.pdf"
+    -
+        label: "Poster"
+        url: "https://eliemichel.github.io/sustainable-gpu-usage/documents/2025%20-%20Yu%20et%20al%20-%20Towards%20a%20sustainable%20use%20of%20GPUs%20in%20Graphics%20Research%20-%20poster.pdf"
 ---
