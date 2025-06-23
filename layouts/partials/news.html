@@ -3,8 +3,8 @@
     <h2>News</h2>
 
     <!-- <div> -->
-        {{ range first 6 (where .Site.RegularPages "Section" "news")}}
-        <div class="news-item">
+        {{ range $k, $v := first 5 (where .Site.RegularPages "Section" "news")}}
+        <div class="news-item {{ if mod $k 2 | eq 0 }} light {{end}}">
             <div class="news-date">
                 {{.Date.Format "Jan 2006"}} 
             </div>
@@ -17,6 +17,10 @@
             </div>
         </div>
         {{ end }}
+
+        <!-- <a href="#">
+            more >>
+        </link> -->
     <!-- </div> -->
 
 </div>

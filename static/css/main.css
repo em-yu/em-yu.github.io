@@ -200,6 +200,10 @@ footer {
     font-size: 0.9em;
 }
 
+.news-item.light {
+    color:#a3a3a3;
+}
+
 .news-date {
     flex-basis: 20%;
     font-style: italic;
