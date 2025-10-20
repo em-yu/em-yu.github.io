@@ -24,13 +24,13 @@ summary: "
     "
 publishPage: false
 links:
-    # -
-    #     label: "Paper"
-    #     url: "https://pixelmaid.github.io/publication/textile"
-    # -
-    #     label: "Video"
-    #     url: "https://vimeo.com/1084792559"
-    # -
-    #     label: "Video"
-    #     url: "https://youtu.be/ZTp69Bgt07U"
+    -
+        label: "Webpage"
+        url: "https://sambourgault.com/worm"
+    -
+        label: "Paper"
+        url: "https://dl.acm.org/doi/10.1145/3746059.3747616"
+    -
+        label: "Video"
+        url: "https://vimeo.com/1114342896"
 ---

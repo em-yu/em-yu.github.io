@@ -22,7 +22,7 @@ publishPage: false
 links:
     -
         label: "Paper"
-        url: "https://pixelmaid.github.io/publication/textile"
+        url: "https://dl.acm.org/doi/10.1145/3715336.3735819"
     -
         label: "Video"
         url: "https://vimeo.com/1084792559"
