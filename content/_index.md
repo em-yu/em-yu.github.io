@@ -2,7 +2,7 @@
 title: "Emilie Yu - Post doctoral researcher"
 ---
 
-I am a post doctoral researcher in the {{<link url="https://ecl.mat.ucsb.edu/">}}Expressive Computation Lab{{</link>}}&nbsp;supervised by Professor Jennifer Jacobs. I am interested in how people use technology and machines for artistic expression and crafts, and in questioning how computational methods can be useful to them. I explore this question through the design of software artifacts, through my own creative practice in using software and making things, and through interactions with expert practitioners.
+I am a post doctoral researcher in the {{<link url="https://expressivecomputation.com/">}}Expressive Computation Lab{{</link>}}&nbsp;supervised by Professor Jennifer Jacobs. I am interested in how people use technology and machines for artistic expression and crafts, and in questioning how computational methods can be useful to them. I explore this question through the design of software artifacts, through my own creative practice in using software and making things, and through interactions with expert practitioners.
 My field of interests span creativity support tools, digital representations of 3D shape, computer-aided manufacturing, and textile crafts.
 
 <!-- such as a desktop 2D frame-by-frame animation tool that uses 3D computer vision to align animated doodles with a video, or a VR painting application that adapts the well-known concepts of digital 2D layers to the 3D space. -->
