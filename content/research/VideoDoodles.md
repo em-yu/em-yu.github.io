@@ -25,7 +25,7 @@ teaser: "video_doodles_small.png"
 bigTeaser: "figures/VideoDoodles/Teaser.png"
 bigTeaserCaption: "Video doodles combine hand-drawn animations with video footage. Our interactive system eases the creation of this mixed media art by letting users place planar canvases in the scene which are then tracked in 3D. In this example, the inserted rainbow bridge exhibits correct perspective and occlusions, and the character’s face and arms follow the tram as it runs towards the camera."
 summary: "
-    We study how artists create VideoDoodles (mix of video and hand-drawn animation) and propose a novel user interface to simplify this task based on depth and motion priors.
+    We studied how artists create VideoDoodles (mix of video and hand-drawn animation) and proposed a novel user interface to simplify this task based on depth and motion priors. TL;DR: computer vision as a scaffold for humans to play with animated doodles.
 "
 publishPage: true
 links:
@@ -41,6 +41,9 @@ links:
     -
         label: "Video"
         url: "https://youtu.be/rN3o8kwX9-8"
+    -
+        label: "DOI"
+        url: "https://doi.org/10.1145/3592413"
 ---
 
 ## Abstract

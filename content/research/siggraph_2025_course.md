@@ -23,7 +23,7 @@ authors:
         url: "http://infosyncratic.nl/"
 teaser: "siggraph-2025-course-teaser.jpg"
 summary: "
-    This course introduce Siggraph attendees to foundational concepts and methods in applying computational design and digital fabrication techniques to craft production. We covered methods from ceramics and textiles production, highlighting our own research and other work in these fields, and pointing out future opportunities for graphics researchers to do work on computational craft. 
+    This course introduced Siggraph attendees to foundational concepts and methods in applying computational design and digital fabrication techniques to craft production. We covered methods from ceramics and textiles production, highlighting our own research and other work in these fields, and pointing out future opportunities for graphics researchers to do work on computational craft. 
     "
 publishPage: false
 links:

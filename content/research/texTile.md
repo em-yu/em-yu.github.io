@@ -8,7 +8,7 @@ authors:
         url: "https://ashleyanndv3.wixsite.com/mysite"
     - 
         name: "Jennifer Jacobs"
-        url: "https://pixelmaid.github.io/personalweb/"
+        url: "http://jenniferjacobs.me/"
     - 
         name: "Emilie Yu"
         url: "https://em-yu.github.io"
@@ -26,7 +26,7 @@ links:
     -
         label: "Video"
         url: "https://vimeo.com/1084792559"
-    # -
-    #     label: "Video"
-    #     url: "https://youtu.be/ZTp69Bgt07U"
+    -
+        label: "DOI"
+        url: "https://dl.acm.org/doi/10.1145/3715336.3735819"
 ---

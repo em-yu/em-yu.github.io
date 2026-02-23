@@ -20,7 +20,7 @@ teaser: "pig_small_teaser.jpg"
 bigTeaser: "figures/3DLs/teaser_website.png"
 bigTeaserCaption: "Our VR painting system allows artists to achieve rich, editable coloring effects using 3D-Layers. Starting with substrate layers (a) that define the geometry and basic colors of the scene, users can stack multiple appearance layers (b) that are composited onto the substrate to produce the final 3D scene (c). Importantly, strokes painted in appearance layers only recolor the substrate strokes they intersect (b, intersections highlighted with a yellow boundary), which avoids the need to position the appearance strokes precisely on the surface of the substrate. In this example, we used appearance strokes to add texture details (white bands on the lighthouse, dark lines on the house and rocks), to paint shadows (lighthouse, rocks), to depict translucency (semi-transparent water painted on the rocks and seabed, subject to a vertical gradient in opacity over the rocks)."
 summary: "
-    VR artists create beautiful 3D paintings with colored 3D brushstrokes. We investigate how the paradigm of ``painting layers'' could translate to the 3D painting space to achieve non-destructive color editing effects.
+    VR artists create beautiful 3D paintings with colored 3D brushstrokes. We investigated how the paradigm of ``painting layers'' could translate to the 3D painting space to achieve non-destructive color editing effects.
 "
 publishPage: true
 links:
@@ -36,6 +36,9 @@ links:
     -
         label: "Video"
         url: "https://youtu.be/ZTp69Bgt07U"
+    -
+        label: "DOI"
+        url: "https://doi.org/10.1145/3658183"
 ---
 
 ## Abstract

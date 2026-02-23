@@ -17,10 +17,10 @@ authors:
         url: "https://em-yu.github.io"
     - 
         name: "Jennifer Jacobs"
-        url: "https://pixelmaid.github.io/personalweb/"
+        url: "http://jenniferjacobs.me/"
 teaser: "worm-teaser-square-02.png"
 summary: "
-    We seek to enable artists to precisely specify domain-specific machining operations to be executed by a cobot (collaborative robot arm). We contribute a novel cobot programming framework that allows artists to use manual interaction with the robot to define robotic behaviors.
+    We sought to enable artists to precisely specify domain-specific machining operations to be executed by a cobot (collaborative robot arm). We contributed a novel cobot programming framework that allows artists to directly manipulate the end-effector to define robotic behaviors.
     "
 publishPage: false
 links:
@@ -33,4 +33,7 @@ links:
     -
         label: "Video"
         url: "https://vimeo.com/1114342896"
+    -
+        label: "DOI"
+        url: "https://doi.org/10.1145/3746059.3747616"
 ---

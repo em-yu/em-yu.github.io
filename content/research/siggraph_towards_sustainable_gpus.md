@@ -35,4 +35,10 @@ links:
     -
         label: "Poster"
         url: "https://eliemichel.github.io/sustainable-gpu-usage/documents/2025%20-%20Yu%20et%20al%20-%20Towards%20a%20sustainable%20use%20of%20GPUs%20in%20Graphics%20Research%20-%20poster.pdf"
+    -
+        label: "Code & Data"
+        url: "https://github.com/eliemichel/sustainable-gpu-usage-data"
+    -
+        label: "DOI"
+        url: "https://doi.org/10.1145/3721239.3734084"
 ---

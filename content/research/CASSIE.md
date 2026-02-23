@@ -30,7 +30,7 @@ curve networks are augmented by our on-the-fly cycle detection and surfacing met
 providing occlusion cues. We evaluated CASSIE with 12 users and utilized it for creating 3D concepts for a variety of application
 domains (d)."
 summary: "
-    We prototype a 3D sketching interface in VR, where the user's strokes are automatically neatened to form a well-connected curve network. We additionnaly infer and create surface patches on the sketch, making it possible to create a 3D surface from a few 3D brush strokes.
+    We proposed a 3D sketching interface in VR, where the user's strokes are automatically neatened to form a well-connected curve network. We also infer and create surface patches on the sketch, making it possible to create a 3D surface from a few 3D brush strokes.
 "
 publishPage: true
 links:
@@ -55,6 +55,9 @@ links:
     -
         label: "Presentation"
         url: "https://youtu.be/DayjA4ilBv0"
+    -
+        label: "DOI"
+        url: "https://doi.org/10.1145/3411764.3445158"
 ---
 
 ## Abstract

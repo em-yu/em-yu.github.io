@@ -22,7 +22,7 @@ teaser: "surfacing_3D_sketches.png"
 bigTeaser: "figures/surfacing_3D_sketches/Teaser.png"
 bigTeaserCaption: "3D sketches created in Virtual Reality (VR) or with sketch-based modeling systems often depict piecewise-smooth surfaces (a), but lack proper inter-stroke connectivity to detect the individual surface patches, as illustrated in the insets where pen strokes do not intersect precisely, and where detail strokes lie on the imaginary surface without being connected to other strokes. State-of-the-art surfacing algorithms only produce smooth surfaces from such sparse and unstructured 3D data (b). Our algorithm segments such an initial smooth surface into regions aligned with the pen strokes to produce a piecewise-smooth surface that better captures the intended shape. ©James Robbins, used with permission."
 summary: "
-    We propose a method to transform unstructured 3D sketches into piecewise smooth surfaces that preserve sketched geometric features.
+    We proposed a method to transform unstructured 3D sketches into piecewise smooth surfaces that preserve sketched geometric features.
 "
 publishPage: true
 links:
@@ -44,6 +44,9 @@ links:
     -
         label: "Presentation"
         url: "https://youtu.be/YqpYrr4n6lU"
+    -
+        label: "DOI"
+        url: "https://doi.org/10.1145/3528223.3530100"
 ---
 
 ## Abstract
