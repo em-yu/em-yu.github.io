@@ -2,30 +2,7 @@
 
 <header class="header">
     {{ with .Site.Params.info }}
-    <div class="socials">
-        {{ if isset . "cv" }}
-        <a href="{{ .cv }}" target="_blank">
-            <div style="display: flex; width: 32px; height: 32px;align-items: center; font-weight: bold; font-size: 1.5em;">
-                CV
-            </div>
-        </a>
-        {{ end }}
-        {{ if isset . "github" }}
-            <a href="{{ .github }}" target="_blank">
-                <img height="32" width="32" src="media/github.svg" alt="github" />
-            </a>
-        {{ end }}
-        {{ if isset . "linkedin" }}
-            <a href="{{ .linkedin }}" target="_blank">
-                <img height="32" width="32" src="media/linkedin.svg" alt="linkedin" />
-            </a>
-        {{ end }}
-        {{ if isset . "twitter" }}
-        <a href="{{ .twitter }}" target="_blank">
-            <img height="32" width="32" src="media/twitter.svg" alt="linkedin" />
-        </a>
-        {{ end }}
-    </div>
+    
     <div class="row-about">
         <div class="col-about info">
             <div class="pic">
@@ -39,6 +16,34 @@
                         {{ .description }}
                     </div>
             <!-- </div> -->
+             <div class="socials">
+                {{ if isset . "email" }}
+                <a href="mailto:{{ .email }}" target="_blank">
+                    <img height="24" width="24" src="media/email.svg" alt="email" />
+                </a>
+                {{ end }}
+                {{ if isset . "bluesky" }}
+                    <a href="{{ .bluesky }}" target="_blank">
+                        <img height="24" width="24" src="media/bluesky.svg" alt="bluesky" />
+                    </a>
+                {{ end }}
+                {{ if isset . "linkedin" }}
+                    <a href="{{ .linkedin }}" target="_blank">
+                        <img height="24" width="24" src="media/linkedin.svg" alt="linkedin" />
+                    </a>
+                {{ end }}
+                {{ if isset . "github" }}
+                    <a href="{{ .github }}" target="_blank">
+                        <img height="24" width="24" src="media/code.svg" alt="github" />
+                    </a>
+                {{ end }}
+                {{ if isset . "cv" }}
+                <a href="{{ .cv }}" target="_blank">
+                    <img height="24" width="24" src="media/cv.svg" alt="email" />
+
+                </a>
+                {{ end }}
+            </div>
         </div>
         <div class="col-about text">
             {{ $.Content }}

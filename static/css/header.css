@@ -11,11 +11,11 @@
 
 .header .socials {
     display: flex;
-    justify-content: flex-end;
+    /* justify-content: flex-end; */
 }
 
 .header .socials img, .header .socials div {
-    margin: 5px 10px;
+    margin: 5px;
     z-index: -1;
 }
 
@@ -41,6 +41,7 @@
     flex-basis: 30%;
     flex-grow: 1;
     max-width: 300px;
+    padding-top: 15px;
 }
 
 .header .text {
