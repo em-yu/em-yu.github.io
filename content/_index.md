@@ -1,7 +1,7 @@
 ---
 title: "Emilie Yu - Post doctoral researcher"
 ---
-I am a post doctoral researcher at CNRS in the LIRIS lab in Lyon, France.
+I am a post doctoral researcher at CNRS in the {{<link url="https://liris.cnrs.fr/">}}LIRIS lab{{</link>}}&nbsp;in Lyon, France.
 
 The overarching goal of my research is to develop computational systems that support people in design and manufacturing, with a focus on enabling *original, innovative, and weird* processes.
 To that end, I conduct research projects at the intersection of *human computer interaction*, *computer graphics*, and *digital fabrication*. To build complete software systems that can be deployed in realistic use cases, I design user interfaces, develop or adapt state-of-the-art algorithms, and integrate digital systems with CNC machines.

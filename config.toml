@@ -6,7 +6,7 @@ description = ""
 [params]
     [params.info]
         name = "Emilie Yu"
-        description = "post doctoral researcher at UCSB"
+        description = "post doctoral researcher at CNRS"
         # twitter = "https://twitter.com/emxtyu"
         bluesky = "https://bsky.app/profile/emxtyu.bsky.social"
         linkedin = "https://www.linkedin.com/in/emilie-yu-312003109/"
