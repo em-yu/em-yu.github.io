@@ -30,4 +30,7 @@ links:
     -
         label: "Video"
         url: "https://vimeo.com/1167008369"
+    -
+        label: "DOI"
+        url: "https://dl.acm.org/doi/10.1145/3772318.3791878"
 ---
